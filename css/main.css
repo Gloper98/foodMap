@@ -98,6 +98,7 @@ nav {
 }
 .restaurant-name {
 	font-weight: 600;
+	border-bottom: 1px solid #fff;
 }
 .background-image {
 	background-image: url('../assets/images/harry.jpg');
@@ -117,12 +118,18 @@ nav {
 }
 .icon-sad {
 	color: #ffc33d;
+	margin-left: 0.5em;
 }
 .icon-smile {
 	color: lawngreen;
+	margin-left: 3em;
 }
 .icons {
-	font-size: 20px;
+	font-size: 16px;
+}
+.slogan {
+	line-height: 0.8em;
+	font-size: 12px;
 }
 /* Color de fuente-Placeholder*/
 .form-control::-webkit-input-placeholder { color: #7C7C7C; }  /* WebKit, Blink, Edge */
