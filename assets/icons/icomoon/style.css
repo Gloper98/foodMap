@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wxqs9t');
+  src:  url('fonts/icomoon.eot?wxqs9t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wxqs9t') format('truetype'),
+    url('fonts/icomoon.woff?wxqs9t') format('woff'),
+    url('fonts/icomoon.svg?wxqs9t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coffee:before {
+  content: "\e900";
+}
+.icon-cup:before {
+  content: "\e900";
+}
+.icon-drink:before {
+  content: "\e900";
+}
+.icon-break:before {
+  content: "\e900";
+}
+.icon-world:before {
+  content: "\e901";
+}
+.icon-globe:before {
+  content: "\e901";
+}
+.icon-internet:before {
+  content: "\e901";
+}
+.icon-network:before {
+  content: "\e901";
+}
+.icon-paperplane:before {
+  content: "\e902";
+}
+.icon-send:before {
+  content: "\e902";
+}
+.icon-flight:before {
+  content: "\e902";
+}
+.icon-email:before {
+  content: "\e902";
+}
+.icon-food:before {
+  content: "\e903";
+}
+.icon-lunch:before {
+  content: "\e903";
+}
+.icon-soup:before {
+  content: "\e903";
+}
+.icon-pin_drop:before {
+  content: "\e90c";
+}
+.icon-subdirectory_arrow_right:before {
+  content: "\e904";
+}
+.icon-free_breakfast:before {
+  content: "\e905";
+}
+.icon-clock:before {
+  content: "\e906";
+}
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-search:before {
+  content: "\e908";
+}
+.icon-zoom:before {
+  content: "\e908";
+}
+.icon-magnifier:before {
+  content: "\e908";
+}
+.icon-magnifying-glass:before {
+  content: "\e908";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-smile:before {
+  content: "\e9e1";
+}
+.icon-sad:before {
+  content: "\e9e5";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-grin:before {
+  content: "\e9e9";
+}
+.icon-wondering2:before {
+  content: "\e9fc";
+}
+.icon-dots-three-vertical:before {
+  content: "\e909";
+}
+.icon-user-o:before {
+  content: "\e90a";
+}
+.icon-dollar:before {
+  content: "\e90b";
+}
+.icon-usd:before {
+  content: "\e90b";
+}

@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+.dark-background {
+	background-color: #232323;
+}
+.logo {
+	margin-top: 0vh;
+	width: 40vw;
+	height: auto;
+	z-index: -1;
+}
+.small-logo {
+	width: 12vw;
+	height: auto;
+	border-radius: 40%;
+}
+.app-title {
+	font-weight: 600;
+	font-size: 50px;
+	margin-top: 33vh;
+	color: #ffc33d;
+}
+.orange {
+	color: #ffc33d;
+}
+hr{
+	width: 18vw;
+	border: 1.8px solid #ffc33d;
+	margin-left: 1vw;
+	margin-top: 0;
+}
+.pulse {
+    transform: scale(0.5);
+    transition-property: transform;
+    transition-duration: 0.7s;
+}
+.antiPulse {
+    transform: scale(1.0);
+    transition-property: transform;
+    transition-duration: 0.7s;
+}
+.small-app-name {
+	color: #ffc33d;
+	font-size: 30px;
+}
+.input-search {
+	border-radius: 9px;
+	border: none;
+	outline: none;
+	width: 64vw;
+	height: 5.5vh;
+	background-color: #111111;
+	color: #fff;
+	padding: 0 5px;
+}
+.input-search:focus {
+	background-color: #fff;
+	color: #333;
+}
+nav {
+	outline: 1px solid blue;
+	padding: 2vh 0;
+}
+.searcher {
+	background-color: #111111;
+	border-radius: 9px;
+	padding: 1px 2px;
+	font-size: 18px;
+	color: #333;
+	float: right;
+	margin-top: 0.8vh;
+}
+.inline-block {
+	display: inline-block;
+}
+.icon-search {
+	color: #6d6a64;
+	background-color: #000;
+	border: none;
+	outline: none;
+	padding: 2px;
+	font-size: 18px;
+}
+#map {
+	margin-top: 3vh;
+  width: 100%;
+	height: 40vh;
+}
+.inputChange {
+	background-color: #fff;
+}
+.background-principal-view {
+	background-color: #111111;
+}
+.restaurant-name {
+	font-weight: 600;
+}
+.background-image {
+	background-image: url('../assets/images/harry.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 8em;
+	
+}
+.white {
+	color: #fff;
+}
+.dark-filter {
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	padding: 2vh 0 2vh 2vw;
+}
+.icon-sad {
+	color: #ffc33d;
+}
+.icon-smile {
+	color: lawngreen;
+}
+.icons {
+	font-size: 20px;
+}
+/* Color de fuente-Placeholder*/
+.form-control::-webkit-input-placeholder { color: #7C7C7C; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #7C7C7C; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #7C7C7C; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #7C7C7C; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #7C7C7C; }  /* Microsoft Edge */
