@@ -18,6 +18,9 @@
 	height: auto;
 	border-radius: 40%;
 }
+.negative-margin {
+	margin-top: -1em;
+}
 .app-title {
 	font-weight: 600;
 	font-size: 50px;
@@ -46,6 +49,8 @@ hr{
 .small-app-name {
 	color: #ffc33d;
 	font-size: 30px;
+	display: inline;
+	margin-left: 4vw;
 }
 .input-search {
 	border-radius: 9px;
@@ -62,7 +67,6 @@ hr{
 	color: #333;
 }
 nav {
-	outline: 1px solid blue;
 	padding: 2vh 0;
 }
 .searcher {
@@ -73,6 +77,13 @@ nav {
 	color: #333;
 	float: right;
 	margin-top: 0.8vh;
+}
+.search-circle {
+	display: inline-block;
+	background-color: #111111;
+	padding: 0.5em;
+	border-radius: 50%;
+	float: right;
 }
 .inline-block {
 	display: inline-block;
@@ -105,7 +116,6 @@ nav {
 	background-position: center;
 	background-size: cover;
 	height: 8em;
-	
 }
 .white {
 	color: #fff;
