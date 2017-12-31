@@ -38,8 +38,8 @@ $(document).ready(function(){
 	
 	function establishment_div_maker(){
 		for(var i=0; i<establishments_data.length; i++){
-			$search_result_div.append('<div class="col-xs-5 lot outline padding-right padding-left mg-col" data-type=' + establishments_data[i].type + ' data-district=' + establishments_data[i].district + ' data-toggle="modal" data-target="#myModal">' + 
-	  				'<div id="' + i + '" class="background-image">' + 
+			$search_result_div.append('<div class="col-xs-5 lot   outline padding-right padding-left mg-col" data-type=' + establishments_data[i].type + ' data-district=' + establishments_data[i].district + ' data-toggle="modal" data-target="#hola">' + 
+	  				'<div id="' + i + '" class="modal_set background-image">' + 
 	  				'<div class="dark-filter">' + 
 	  					'<h4 class="white restaurant-name">' + establishments_data[i].name + '</h4>' + 
 	  					'<p class="white slogan">' + establishments_data[i].slogan + '</p>' +
@@ -76,6 +76,14 @@ $(document).ready(function(){
     $lot.each(type_search);
     $lot.each(district_search);
   }
+	
+	function show_info_modal() {
+		for(var i=0;i<establishments_data.length;i++){
+			if($(this).prop('id') == i){
+				console.log(i);
+			}
+		}
+	}
 
 	$input_search.focus(inputStyle);
 	$input_search.blur(inputStyleReverse);
@@ -84,4 +92,5 @@ $(document).ready(function(){
 	establishment_div_maker();
 	$input_search.keyup(general_filter);
 	console.log(establishments_data);
+	$('.modal_set').click(show_info_modal);
 })
