@@ -35,6 +35,7 @@ hr{
 	border: 1.8px solid #ffc33d;
 	margin-left: 1vw;
 	margin-top: 0;
+	display: inline;
 }
 .pulse {
     transform: scale(0.5);
@@ -109,13 +110,15 @@ nav {
 }
 .restaurant-name {
 	font-weight: 600;
+	font-size: 22px;
 	border-bottom: 1px solid #fff;
+	text-transform: capitalize;
 }
 .background-image {
 	background-image: url('../assets/images/harry.jpg');
 	background-position: center;
 	background-size: cover;
-	height: 8em;
+	height: 9em;
 }
 .white {
 	color: #fff;
@@ -126,20 +129,48 @@ nav {
 	height: 100%;
 	padding: 2vh 0 2vh 2vw;
 }
+.outline {
+	border: 2px solid #ffc33d;
+	border-radius: 5px;
+}
 .icon-sad {
-	color: #ffc33d;
-	margin-left: 0.5em;
+	color: red;
+	margin-left: 0.4em;
 }
 .icon-smile {
+	color: #ffc33d;
+	margin-left: 0.4em;
+}
+.icon-wink {
 	color: lawngreen;
-	margin-left: 3em;
+	margin-left: 0.4em;
 }
 .icons {
-	font-size: 16px;
+	font-size: 12px;
 }
 .slogan {
-	line-height: 0.8em;
+	line-height: 1.1em;
 	font-size: 12px;
+}
+.icon-paperplane {
+	color: #fff;
+	opacity: 0.8;
+	margin-left: 0.8em;
+}
+.number {
+	color: #fff;
+	opacity: 0.8;
+	display: inline-block;
+}
+.padding-left {
+	padding-left: 0em;
+}
+.padding-right {
+	padding-right: 0em;
+}
+.mg-col {
+	margin-left: 1.3em;
+	margin-top: 1em;
 }
 /* Color de fuente-Placeholder*/
 .form-control::-webkit-input-placeholder { color: #7C7C7C; }  /* WebKit, Blink, Edge */
