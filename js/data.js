@@ -11,7 +11,7 @@ var establishments_data = [{
 	'latitude': '-12.0393264',
 	'longitude': '-77.0433712',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/pasta.jpg")',
 	'price': '$$',
 	'type': 'snacks',
 	'district': 'cercado de lima',
@@ -30,7 +30,7 @@ var establishments_data = [{
 	'latitude': '-12.1242546',
 	'longitude': '-77.033012',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/chaufa.jpg")',
 	'price': '$$$$',
 	'type': 'marine-food',
 	'district': 'miraflores',
@@ -49,7 +49,7 @@ var establishments_data = [{
 	'latitude': '-12.1178165',
 	'longitude': '-77.03185839999999',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/lomo.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'cercado de lima',
@@ -68,7 +68,7 @@ var establishments_data = [{
 	'latitude': '-12.1482122',
 	'longitude': '-77.0211534',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/marine-food.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
@@ -87,7 +87,7 @@ var establishments_data = [{
 	'latitude': '-12.1396178',
 	'longitude': '-77.0232994',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/pizza2.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
@@ -106,7 +106,7 @@ var establishments_data = [{
 	'latitude': '-12.1466626',
 	'longitude': '-77.02223839999999',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/roast-chicken.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
 	'district': 'barranco'
@@ -124,7 +124,7 @@ var establishments_data = [{
 	'latitude': '-12.094763',
 	'longitude': '-77.02680579999999',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/meat.jpg")',
 	'price': '$$$',
 	'type': 'meat',
 	'district': 'san isidro'
@@ -142,7 +142,7 @@ var establishments_data = [{
 	'latitude': '-12.1019139',
 	'longitude': '-77.036845',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
 	'district': 'san isidro'
@@ -160,7 +160,7 @@ var establishments_data = [{
 	'latitude': '-12.0926869',
 	'longitude': '-77.0256924',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/ceviche.jpg")',
 	'price': '$$$',
 	'type': 'marine-food',
 	'district': 'san isidro'
@@ -178,7 +178,7 @@ var establishments_data = [{
 	'latitude': '-12.1251081',
 	'longitude': '-76.9992484',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/lasagna.jpg")',
 	'price': '$$',
 	'type': 'lima-food',
 	'district': 'surco'
@@ -196,7 +196,7 @@ var establishments_data = [{
 	'latitude': '-12.1150268',
 	'longitude': '-76.9912255',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/mini-pizza.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
 	'district': 'surco'
@@ -214,7 +214,7 @@ var establishments_data = [{
 	'latitude': '-12.1019395',
 	'longitude': '-76.9714399',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/roll-sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
 	'district': 'surco'
@@ -232,7 +232,7 @@ var establishments_data = [{
 	'latitude': '-12.0772486',
 	'longitude': '-77.0487915',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/jungle.jpg")',
 	'price': '$$',
 	'type': 'jungle-food',
 	'district': 'cercado de lima'
@@ -250,7 +250,7 @@ var establishments_data = [{
 	'latitude': '-12.1583342',
 	'longitude': '-76.9729472',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/chaufa2.jpg")',
 	'price': '$$',
 	'type': 'marine-food',
 	'district': 'san juan de miraflores'
@@ -268,7 +268,7 @@ var establishments_data = [{
 	'latitude': '-12.1604878',
 	'longitude': '-76.9733945',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/chinese-chicken.jpeg")',
 	'price': '$',
 	'type': 'peruvian-chinese food',
 	'district': 'san juan de miraflores'
@@ -286,7 +286,7 @@ var establishments_data = [{
 	'latitude': '-12.1253428',
 	'longitude': '-77.02187959999999',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/tartelette.jpg")',
 	'price': '$$$',
 	'type': 'italian food',
 	'district': 'miraflores'
@@ -304,7 +304,7 @@ var establishments_data = [{
 	'latitude': '-12.1301948',
 	'longitude': '-77.0245499',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/tanta.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food-gourmet',
 	'district': 'miraflores'
@@ -322,7 +322,7 @@ var establishments_data = [{
 	'latitude': '-12.0393264',
 	'longitude': '-77.0433712',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/ham.jpg")',
 	'price': '$$',
 	'type': 'snacks',
 	'district': 'miraflores'
@@ -340,7 +340,7 @@ var establishments_data = [{
 	'latitude': '-12.1254707',
 	'longitude': '-77.0305827',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/pavo.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food',
 	'district': 'miraflores'
@@ -358,7 +358,7 @@ var establishments_data = [{
 	'latitude': '-12.1252575',
 	'longitude': '-77.03139469999999',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/potato-food.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'miraflores'
@@ -376,7 +376,7 @@ var establishments_data = [{
 	'latitude': '-12.1312752',
 	'longitude': '-77.0256254',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/waffles.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'miraflores'
@@ -394,7 +394,7 @@ var establishments_data = [{
 	'latitude': '-12.1182765',
 	'longitude': '-77.0454121',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/coffee.jpg")',
 	'price': '$$$',
 	'type': 'coffee',
 	'district': 'miraflores'
@@ -412,7 +412,7 @@ var establishments_data = [{
 	'latitude': '-12.1212322',
 	'longitude': '-77.0335968',
 	'logo': '../assets/images/',
-	'image': '../assets/images/',
+	'image': 'url("../assets/images/ensalada.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
 	'district': 'miraflores'
