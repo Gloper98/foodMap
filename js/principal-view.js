@@ -38,7 +38,7 @@ $(document).ready(function(){
 	
 	function establishment_div_maker(){
 		for(var i=0; i<establishments_data.length; i++){
-			$search_result_div.append('<div class="col-xs-5 lot outline padding-right padding-left mg-col" data-type=' + establishments_data[i].type + ' data-district=' + establishments_data[i].district + '>' + 
+			$search_result_div.append('<div class="col-xs-5 lot outline padding-right padding-left mg-col" data-type=' + establishments_data[i].type + ' data-district=' + establishments_data[i].district + ' data-toggle="modal" data-target="#myModal">' + 
 	  				'<div id="' + i + '" class="background-image">' + 
 	  				'<div class="dark-filter">' + 
 	  					'<h4 class="white restaurant-name">' + establishments_data[i].name + '</h4>' + 
@@ -47,9 +47,7 @@ $(document).ready(function(){
 	  				'</div>' +
 	  				'</div>' +
 	  			'</div>');
-			
 			$('#' + i ).css('background-image', establishments_data[i].image );
-			
 		}
 	}
 	

@@ -171,6 +171,61 @@ nav {
 	margin-left: 1.3em;
 	margin-bottom: 1em;
 }
+.mg-choose-title {
+	margin: 0;
+}
+.establishment_direction_map {
+	height: 7em;
+	width: auto;
+	margin: 1em 0;
+	outline: 1px solid red;
+}
+h2 {
+	outline: 1px solid red;
+	display: inline;
+}
+#happy-face {
+	float: right;
+	width:2.5em;
+	height: auto;
+	margin: 0;
+	outline: 1px solid red;
+}
+.info_body {
+	margin-top: 1.5em;
+}
+.web_info, .schedule_info {
+	display: inline-block;
+	margin-left: 1em;
+}
+.icon-internet {
+	display: block;
+}
+.price_info {
+	display: inline-block;
+	float: right;
+}
+.btn_modal {
+	padding-top: 0.5em;
+	border-right: 1px solid #e4e6e8;
+	border-top: 1px solid #e4e6e8;
+}
+.modal-footer {
+	border: none;
+}
+.plane, .menu {
+	padding-bottom: 1em;
+}
+.btn_footer_container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.number_info {
+	font-size: 11px;
+}
+.call {
+	margin-bottom: 0;
+}
 /* Color de fuente-Placeholder*/
 .form-control::-webkit-input-placeholder { color: #7C7C7C; }  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { color: #7C7C7C; }  /* Mozilla Firefox 4 to 18 */
