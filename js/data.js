@@ -14,7 +14,7 @@ var establishments_data = [{
 	'image': 'url("../assets/images/pasta.jpg")',
 	'price': '$$',
 	'type': 'snacks',
-	'district': 'cercado de lima',
+	'district': 'cercado',
 	'coment': '../assets/images/'
 },
 	{
@@ -235,7 +235,7 @@ var establishments_data = [{
 	'image': 'url("../assets/images/jungle.jpg")',
 	'price': '$$',
 	'type': 'jungle-food',
-	'district': 'cercado de lima'
+	'district': 'cercado'
 },
 	{
 	'name': 'two pirates',
@@ -253,7 +253,7 @@ var establishments_data = [{
 	'image': 'url("../assets/images/chaufa2.jpg")',
 	'price': '$$',
 	'type': 'marine-food',
-	'district': 'san juan de miraflores'
+	'district': 'sanJuan'
 },
 	{
 	'name': 'jumbo chifa',
