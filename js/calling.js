@@ -9,6 +9,6 @@ $(document).ready(function() {
 	$('title').text('Calling'+ ' ' + $name_calling.text());
 	$audio.trigger('play');
 	setTimeout(function() {
-		window.location.href='../views/index.html';
+		window.location.href='../index.html';
 	}, 120000);
 })

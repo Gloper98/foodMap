@@ -10,7 +10,7 @@ var establishments_data = [{
 	'delivery': '500 300 192',
 	'latitude': '-12.0393264',
 	'longitude': '-77.0433712',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/pasta.jpg',
 	'image': 'url("../assets/images/pasta.jpg")',
 	'price': '$$',
 	'type': 'snacks',
@@ -35,8 +35,7 @@ var establishments_data = [{
 		      { 'dish':'Pastel de maracuya + Capuccino',
 					  'money':'25$'
 					}
-	  ],
-	'coment': '../assets/images/'
+	  ]
 },
 	{
 	'name': 'al fresco',
@@ -50,33 +49,32 @@ var establishments_data = [{
 	'delivery': '(01) 2428960',
 	'latitude': '-12.1242546',
 	'longitude': '-77.033012',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/chaufa.jpg',
 	'image': 'url("../assets/images/chaufa.jpg")',
 	'price': '$$$$',
 	'type': 'marine-food',
 	'district': 'miraflores',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Sopa de cangrejo',
+					  'money':'5$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
-					  'money':'12$'
+						'dish':'Jalea de calamar',
+					  'money':'10$'
 					}, 
 		      { 
-						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
+						'dish':'Ceviche de tiburon',
+					  'money':'22$'
 					}, 
 		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
+						'dish':'Chaufa de mariscos',
 					  'money':'20$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 'dish':'Pisco sour pescador',
+					  'money':'30$'
 					}
-	  ],
-	'coment': '../assets/images/'
+	  ]
   },
 	{
 	'name': 'panchita',
@@ -90,33 +88,32 @@ var establishments_data = [{
 	'delivery': '(01) 2425957',
 	'latitude': '-12.1178165',
 	'longitude': '-77.03185839999999',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/lomo.jpg',
 	'image': 'url("../assets/images/lomo.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'cercado de lima',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Pastel arequipeño',
+					  'money':'18$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
-					  'money':'12$'
+						'dish':'Yuquitas rellenas',
+					  'money':'8$'
 					}, 
 		      { 
-						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
+						'dish':'Lomo saltado',
+					  'money':'12$'
 					}, 
 		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
-					  'money':'20$'
+						'dish':'Aguadito de camarones',
+					  'money':'29$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 'dish':'Machu Picchu + tequeños de queso(12)',
+					  'money':'32$'
 					}
-	  ],
-	'coment': '../assets/images/'
+	  ]
 },
 	{
 	'name': 'arlotia',
@@ -130,33 +127,32 @@ var establishments_data = [{
 	'delivery': '(01) 2562269',
 	'latitude': '-12.1482122',
 	'longitude': '-77.0211534',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/marine-food.jpg',
 	'image': 'url("../assets/images/marine-food.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Arroz con pollo',
+					  'money':'14$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
+						'dish':'Churrasco a la leña',
 					  'money':'12$'
 					}, 
 		      { 
-						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
+						'dish':'Tallarines rojos',
+					  'money':'11$'
 					}, 
 		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
-					  'money':'20$'
+						'dish':'Vino de 1998',
+					  'money':'40$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 'dish':'Arroz a la jardinera',
+					  'money':'10$'
 					}
-	  ],
-	'coment': '../assets/images/'
+	  ]
 },
 	{
 	'name': 'the 73',
@@ -170,33 +166,32 @@ var establishments_data = [{
 	'delivery': '(01) 2470780',
 	'latitude': '-12.1396178',
 	'longitude': '-77.0232994',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/pizza2.jpg',
 	'image': 'url("../assets/images/pizza2.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Ensalada de palmito',
+					  'money':'17$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
-					  'money':'12$'
+						'dish':'Chicharron',
+					  'money':'21$'
 					}, 
 		      { 
 						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
+					  'money':'9$'
 					}, 
 		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
-					  'money':'20$'
+						'dish':'Locro de zapallo',
+					  'money':'14$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 'dish':'Turron de los milagros',
+					  'money':'15$'
 					}
-	  ],
-	'coment': '../assets/images/'
+	  ]
 },
 	{
 	'name': 'sing frog',
@@ -210,30 +205,30 @@ var establishments_data = [{
 	'delivery': '(01) 2477274',
 	'latitude': '-12.1466626',
 	'longitude': '-77.02223839999999',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/roast-chicken.jpg',
 	'image': 'url("../assets/images/roast-chicken.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
 	'district': 'barranco',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Lasagna',
+					  'money':'13$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
-					  'money':'12$'
+						'dish':'Tartaleta de mora',
+					  'money':'6$'
 					}, 
 		      { 
-						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
+						'dish':'Fetuccini',
+					  'money':'27$'
 					}, 
 		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
-					  'money':'20$'
+						'dish':'Pizza Venecia',
+					  'money':'16$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 'dish':'Pasta en salsa florencia',
+					  'money':'28$'
 					}
 	  ]
 },
@@ -249,30 +244,30 @@ var establishments_data = [{
 	'delivery': '(01) 4422690',
 	'latitude': '-12.094763',
 	'longitude': '-77.02680579999999',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/meat.jpg',
 	'image': 'url("../assets/images/meat.jpg")',
 	'price': '$$$',
 	'type': 'meat',
-	'district': 'san isidro',
+	'district': 'sanisidro',
 	'menu':[
 		      {
-					  'dish':'Empanadas de lomo saltado',
-					  'money':'8$'
+					  'dish':'Churrasco + Chorizo',
+					  'money':'26$'
 					},
 		      {
-						'dish':'Tacu tacu con huevo',
-					  'money':'12$'
-					}, 
-		      { 
-						'dish':'Sandwich de pollo a la brasa',
-					  'money':'5$'
-					}, 
-		      {
-						'dish':'Jugo de piña + Ensalada de fruta',
+						'dish':'Rez a la parrilla',
 					  'money':'20$'
 					}, 
-		      { 'dish':'Pastel de maracuya + Capuccino',
-					  'money':'25$'
+		      { 
+						'dish':'Bistec al horno con salsa blanca',
+					  'money':'31$'
+					}, 
+		      {
+						'dish':'Cerdo al horno',
+					  'money':'20$'
+					}, 
+		      { 'dish':'MonsterBurguer',
+					  'money':'13$'
 					}
 	  ]
 },
@@ -288,11 +283,11 @@ var establishments_data = [{
 	'delivery': '(01) 4226367',
 	'latitude': '-12.1019139',
 	'longitude': '-77.036845',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/sushi.jpg',
 	'image': 'url("../assets/images/sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
-	'district': 'san isidro',
+	'district': 'sanisidro',
 	'menu':[
 		      {
 					  'dish':'Empanadas de lomo saltado',
@@ -327,7 +322,7 @@ var establishments_data = [{
 	'delivery': ' (01) 4224129',
 	'latitude': '-12.0926869',
 	'longitude': '-77.0256924',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/ceviche.jpg',
 	'image': 'url("../assets/images/ceviche.jpg")',
 	'price': '$$$',
 	'type': 'marine-food',
@@ -366,7 +361,7 @@ var establishments_data = [{
 	'delivery': '(01) 4483040',
 	'latitude': '-12.1251081',
 	'longitude': '-76.9992484',
-	'logo': '../assets/images/',
+		'modal_image': '../assets/images/lasagna.jpg',
 	'image': 'url("../assets/images/lasagna.jpg")',
 	'price': '$$',
 	'type': 'lima-food',
@@ -405,7 +400,7 @@ var establishments_data = [{
 	'delivery': '(01) 3721376',
 	'latitude': '-12.1150268',
 	'longitude': '-76.9912255',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/mini-pizza.jpg',
 	'image': 'url("../assets/images/mini-pizza.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
@@ -444,7 +439,7 @@ var establishments_data = [{
 	'delivery': '(01) 4377320',
 	'latitude': '-12.1019395',
 	'longitude': '-76.9714399',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/roll-sushi.jpg',
 	'image': 'url("../assets/images/roll-sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
@@ -483,7 +478,7 @@ var establishments_data = [{
 	'delivery': '(01) 4319758',
 	'latitude': '-12.0772486',
 	'longitude': '-77.0487915',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/jungle.jpg',
 	'image': 'url("../assets/images/jungle.jpg")',
 	'price': '$$',
 	'type': 'jungle-food',
@@ -521,7 +516,7 @@ var establishments_data = [{
 	'delivery': '960 176 786',
 	'latitude': '-12.1583342',
 	'longitude': '-76.9729472',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/chaufa2.jpg',
 	'image': 'url("../assets/images/chaufa2.jpg")',
 	'price': '$$',
 	'type': 'marine-food',
@@ -560,7 +555,7 @@ var establishments_data = [{
 	'delivery': '(01) 4660683',
 	'latitude': '-12.1604878',
 	'longitude': '-76.9733945',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/chinese-chicken.jpeg',
 	'image': 'url("../assets/images/chinese-chicken.jpeg")',
 	'price': '$',
 	'type': 'peruvian-chinese food',
@@ -599,7 +594,7 @@ var establishments_data = [{
 	'delivery': '(01) 4458156',
 	'latitude': '-12.1253428',
 	'longitude': '-77.02187959999999',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/tartelette.jpg',
 	'image': 'url("../assets/images/tartelette.jpg")',
 	'price': '$$$',
 	'type': 'italian food',
@@ -638,7 +633,7 @@ var establishments_data = [{
 	'delivery': '(01) 4445231',
 	'latitude': '-12.1301948',
 	'longitude': '-77.0245499',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/tanta.jpg',
 	'image': 'url("../assets/images/tanta.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food-gourmet',
@@ -677,7 +672,7 @@ var establishments_data = [{
 	'delivery': '500 300 192',
 	'latitude': '-12.0393264',
 	'longitude': '-77.0433712',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/ham.jpg',
 	'image': 'url("../assets/images/ham.jpg")',
 	'price': '$$',
 	'type': 'snacks',
@@ -716,7 +711,7 @@ var establishments_data = [{
 	'delivery': '(01) 4462512',
 	'latitude': '-12.1254707',
 	'longitude': '-77.0305827',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/pavo.jpg',
 	'image': 'url("../assets/images/pavo.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food',
@@ -755,7 +750,7 @@ var establishments_data = [{
 	'delivery': '(01) 2424149',
 	'latitude': '-12.1252575',
 	'longitude': '-77.03139469999999',
-	'logo': '../assets/images/',
+		'modal_image': '../assets/images/potato-food.jpg',
 	'image': 'url("../assets/images/potato-food.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
@@ -794,7 +789,7 @@ var establishments_data = [{
 	'delivery': '(01) 2429619',
 	'latitude': '-12.1312752',
 	'longitude': '-77.0256254',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/waffles.jpg',
 	'image': 'url("../assets/images/waffles.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
@@ -833,7 +828,7 @@ var establishments_data = [{
 	'delivery': '(01) 7240475',
 	'latitude': '-12.1182765',
 	'longitude': '-77.0454121',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/coffee.jpg',
 	'image': 'url("../assets/images/coffee.jpg")',
 	'price': '$$$',
 	'type': 'coffee',
@@ -872,7 +867,7 @@ var establishments_data = [{
 	'delivery': '(01) 4458047',
 	'latitude': '-12.1212322',
 	'longitude': '-77.0335968',
-	'logo': '../assets/images/',
+	'modal_image': '../assets/images/ensalada.jpg',
 	'image': 'url("../assets/images/ensalada.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',

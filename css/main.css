@@ -254,6 +254,10 @@ li:hover {
 .dish_price {
 	float: right;
 }
+.menu-image {
+	width: 100%;
+	height: auto;
+}
 .img_ad {
 	height: 7em;
 	width: auto;

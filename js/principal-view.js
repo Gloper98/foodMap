@@ -15,6 +15,7 @@ $(document).ready(function(){
 	var $ad_cross = $('.ad-cross');
 	var $img_ad = $('.img_ad');
 	var $calling_btn = $('.calling_btn');
+	var $menu_image = $('.menu-image')
 	
 	function inputStyle() {
 		$input_button.addClass('inputChange');
@@ -101,6 +102,7 @@ $(document).ready(function(){
 	
 	function return_state_modal(){
 		$menu_dishes.empty();
+		$menu_image.addClass('hide');
 	}
 	
 	function dishes(){
@@ -111,6 +113,8 @@ $(document).ready(function(){
 			$img_ad.removeClass('hide');
 			for(var i=0; i<establishments_data.length;i++){
 			  if($('.establishment_name').text() === establishments_data[i].name){
+					$menu_image.attr('src', establishments_data[i].modal_image);
+					$menu_image.removeClass('hide');
 					for ( var j = 0; j< establishments_data[i].menu.length;j++){
 						 $menu_dishes.append( 
              '<li class="dish"><span class="icon-circle"></span>' + establishments_data[i].menu[j].dish + '<span class="dish_price orange">' + establishments_data[i].menu[j].money + '</span>' + '</li>');
@@ -132,7 +136,7 @@ $(document).ready(function(){
 		$img_ad.addClass('hide');
 	}
 	
-	function calling() {
+	function calling_establishment() {
 		localStorage.name=$('.establishment_name').text();
 		localStorage.phone=$('.number_info').text();
 		window.location.replace("../views/calling.html");
@@ -148,7 +152,7 @@ $(document).ready(function(){
 	$menu.on('click',dishes);
 	$close.on('click',return_state_modal);
 	$ad_cross.click(hideAd);
-	$calling_btn.click(calling);
+	$calling_btn.click(calling_establishment);
 	console.log(establishments_data);
 	$('.modal_set').click(show_info_modal);
 })
