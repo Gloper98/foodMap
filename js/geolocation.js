@@ -1,8 +1,20 @@
-function initMap() {
+var initMap= function() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -12.0463731, lng: -77.042754},
           zoom: 10
         });
+	
+	      var map2 = new google.maps.Map(document.getElementById('map2'), {
+          center: {lat:-12.0393264,lng: -77.0433712},
+          zoom: 13
+        });
+	      
+	      var marker = new google.maps.Marker({
+					position: {lat:-12.0393264,lng: -77.0433712},
+					map:map2,
+					icon: '../assets/images/mapfood-pin.png'
+				});
+	      
         var infoWindow = new google.maps.InfoWindow({map: map});
 
         // Try HTML5 geolocation.

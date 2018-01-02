@@ -15,6 +15,27 @@ var establishments_data = [{
 	'price': '$$',
 	'type': 'snacks',
 	'district': 'cercado',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'coment': '../assets/images/'
 },
 	{
@@ -34,8 +55,29 @@ var establishments_data = [{
 	'price': '$$$$',
 	'type': 'marine-food',
 	'district': 'miraflores',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'coment': '../assets/images/'
-},
+  },
 	{
 	'name': 'panchita',
 	'slogan':'panchitas flavor',
@@ -53,6 +95,27 @@ var establishments_data = [{
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'cercado de lima',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'coment': '../assets/images/'
 },
 	{
@@ -72,6 +135,27 @@ var establishments_data = [{
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'coment': '../assets/images/'
 },
 	{
@@ -91,6 +175,27 @@ var establishments_data = [{
 	'price': '$$$',
 	'type': 'peruvian-food',
 	'district': 'barranco',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'coment': '../assets/images/'
 },
 	{
@@ -109,7 +214,28 @@ var establishments_data = [{
 	'image': 'url("../assets/images/roast-chicken.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
-	'district': 'barranco'
+	'district': 'barranco',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ]
 },
 	{
 	'name': 'the road',
@@ -127,7 +253,28 @@ var establishments_data = [{
 	'image': 'url("../assets/images/meat.jpg")',
 	'price': '$$$',
 	'type': 'meat',
-	'district': 'san isidro'
+	'district': 'san isidro',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ]
 },
 	{
 	'name': 'hanzo',
@@ -145,7 +292,28 @@ var establishments_data = [{
 	'image': 'url("../assets/images/sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
-	'district': 'san isidro'
+	'district': 'san isidro',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ]
 },
 	{
 	'name': 'pier41',
@@ -163,6 +331,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/ceviche.jpg")',
 	'price': '$$$',
 	'type': 'marine-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'san isidro'
 },
 	{
@@ -181,6 +370,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/lasagna.jpg")',
 	'price': '$$',
 	'type': 'lima-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'surco'
 },
   {
@@ -199,6 +409,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/mini-pizza.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'surco'
 },
 	{
@@ -217,6 +448,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/roll-sushi.jpg")',
 	'price': '$$$$',
 	'type': 'japanese-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'surco'
 },
 	{
@@ -235,7 +487,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/jungle.jpg")',
 	'price': '$$',
 	'type': 'jungle-food',
-	'district': 'cercado'
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 },
 	{
 	'name': 'two pirates',
@@ -253,6 +525,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/chaufa2.jpg")',
 	'price': '$$',
 	'type': 'marine-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'sanJuan'
 },
 	{
@@ -271,6 +564,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/chinese-chicken.jpeg")',
 	'price': '$',
 	'type': 'peruvian-chinese food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'san juan de miraflores'
 },
 	{
@@ -289,6 +603,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/tartelette.jpg")',
 	'price': '$$$',
 	'type': 'italian food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -307,6 +642,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/tanta.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food-gourmet',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -325,6 +681,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/ham.jpg")',
 	'price': '$$',
 	'type': 'snacks',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -343,6 +720,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/pavo.jpg")',
 	'price': '$$$$',
 	'type': 'peruvian-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -361,6 +759,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/potato-food.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -379,6 +798,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/waffles.jpg")',
 	'price': '$$$',
 	'type': 'peruvian-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -397,6 +837,27 @@ var establishments_data = [{
 	'image': 'url("../assets/images/coffee.jpg")',
 	'price': '$$$',
 	'type': 'coffee',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 },
 	{
@@ -415,5 +876,26 @@ var establishments_data = [{
 	'image': 'url("../assets/images/ensalada.jpg")',
 	'price': '$$$',
 	'type': 'italian-food',
+	'menu':[
+		      {
+					  'dish':'Empanadas de lomo saltado',
+					  'money':'8$'
+					},
+		      {
+						'dish':'Tacu tacu con huevo',
+					  'money':'12$'
+					}, 
+		      { 
+						'dish':'Sandwich de pollo a la brasa',
+					  'money':'5$'
+					}, 
+		      {
+						'dish':'Jugo de piña + Ensalada de fruta',
+					  'money':'20$'
+					}, 
+		      { 'dish':'Pastel de maracuya + Capuccino',
+					  'money':'25$'
+					}
+	  ],
 	'district': 'miraflores'
 }];

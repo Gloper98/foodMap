@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wxqs9t');
-  src:  url('fonts/icomoon.eot?wxqs9t#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wxqs9t') format('truetype'),
-    url('fonts/icomoon.woff?wxqs9t') format('woff'),
-    url('fonts/icomoon.svg?wxqs9t#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?orxy38');
+  src:  url('fonts/icomoon.eot?orxy38#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?orxy38') format('truetype'),
+    url('fonts/icomoon.woff?orxy38') format('woff'),
+    url('fonts/icomoon.svg?orxy38#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -117,8 +117,14 @@
 .icon-wondering2:before {
   content: "\e9fc";
 }
+.icon-cross:before {
+  content: "\ea0f";
+}
 .icon-dots-three-vertical:before {
   content: "\e909";
+}
+.icon-circle:before {
+  content: "\e90d";
 }
 .icon-user-o:before {
   content: "\e90a";

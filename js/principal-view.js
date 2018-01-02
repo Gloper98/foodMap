@@ -6,6 +6,15 @@ $(document).ready(function(){
 	var $circle_button = $('#circle-button');
 	var $title = $('#title'); 
 	var $search_result_div = $('#search-results');
+	var $menu = $('.menu');
+	var $info_body = $('.info_body');
+	var $map2 = $('#map2');
+	var $info_menu_body = $('.info_menu_body');
+	var $menu_dishes = $('#menu_dishes');
+	var $close = $('.close');
+	var $ad_cross = $('.ad-cross');
+	var $img_ad = $('.img_ad');
+	var $calling_btn = $('.calling_btn');
 	
 	function inputStyle() {
 		$input_button.addClass('inputChange');
@@ -89,13 +98,57 @@ $(document).ready(function(){
 			}
 		}
 	}
-
+	
+	function return_state_modal(){
+		$menu_dishes.empty();
+	}
+	
+	function dishes(){
+		if($info_menu_body.hasClass('hide')){
+			$menu_dishes.empty();
+		} else {
+			$img_ad.addClass('show');
+			$img_ad.removeClass('hide');
+			for(var i=0; i<establishments_data.length;i++){
+			  if($('.establishment_name').text() === establishments_data[i].name){
+					for ( var j = 0; j< establishments_data[i].menu.length;j++){
+						 $menu_dishes.append( 
+             '<li class="dish"><span class="icon-circle"></span>' + establishments_data[i].menu[j].dish + '<span class="dish_price orange">' + establishments_data[i].menu[j].money + '</span>' + '</li>');
+					}
+			  }
+		  }
+		}
+	}
+	
+	function showMenu() {
+		$info_body.toggle('.hide');
+		$map2.toggle('.hide');
+		$info_menu_body.toggleClass('hide');
+		$menu.toggleClass('active_info');
+	}
+	
+	function hideAd(){
+		$img_ad.removeClass('show');
+		$img_ad.addClass('hide');
+	}
+	
+	function calling() {
+		localStorage.name=$('.establishment_name').text();
+		localStorage.phone=$('.number_info').text();
+		window.location.replace("../views/calling.html");
+	}
+	
 	$input_search.focus(inputStyle);
 	$input_search.blur(inputStyleReverse);
 	$circle_button.click(search);
 	$logo.click(hideInput);
 	establishment_div_maker();
 	$input_search.keyup(general_filter);
+	$menu.on('click',showMenu);
+	$menu.on('click',dishes);
+	$close.on('click',return_state_modal);
+	$ad_cross.click(hideAd);
+	$calling_btn.click(calling);
 	console.log(establishments_data);
 	$('.modal_set').click(show_info_modal);
 })
