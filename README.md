@@ -1,6 +1,6 @@
 # FoodMap
 Desarrollo de una web-app que replica el sitio de [FoodMap](https://play.google.com/store/apps/details?id=ru.trinitydigital.poison&hl=en), en la cual a través de un input se puede filtrar los restaurantes que se encuentran cerca del usuario.
-![view](https://user-images.githubusercontent.com/32302890/38159600-6cb49f3c-3471-11e8-8913-dca23d1d0e27.png "FoodMap") 
+![image](https://user-images.githubusercontent.com/32302890/38383497-47ef3f30-38d2-11e8-9579-d3cfed75963a.png)
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
 ## Flujo de la app
